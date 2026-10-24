@@ -53,3 +53,21 @@ Use Python 3.10 or later. From the repository folder, run:
 
 ```bash
 python -m pip install -r requirements.txt
+
+```text
+=== Run configuration ===
+Grid: 50x50; obstacles=90; hazards=4; targets=20
+GA: population=40; generations=75; mutation=0.25; elitism=2
+
+=== Observed results for this execution ===
+Generation 1 best: 9292.19
+Generation 75 best: 10210.54
+Random search best (3200 evaluations): 9621.57
+Observed GA improvement over random search: 6.12%
+Best candidate details: detected=20/20, energy=5274.03, time=300.76, hazard integral=29.72
+
+=== Supplied reference results (kept separate from this run) ===
+Generation 1 best: 6522.16
+Generation 75 best: 8811.78
+Random search (3200 evaluations): 7223.11
+Reported GA improvement: ~22%
